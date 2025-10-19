@@ -15,7 +15,7 @@ const main = async () => {
             </h3>
             </article>
         `
-    }).json('');
+    }).join('');
 
     const newItem = document.createElement('section');
     newItem.classList.add('Items');
